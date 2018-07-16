@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO="dockerkit"
+REPO="hafid11afridian"
 PROJECT=$(pwd | rev | cut -d / -f 1 | rev)
 
 declare -a PIPELINE

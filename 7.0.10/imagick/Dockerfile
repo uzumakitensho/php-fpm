@@ -1,4 +1,4 @@
-FROM dockerkit/php-fpm:7.0.10
+FROM hafid11afridian/php-fpm:7.0.10
 
 RUN apk add --update --no-cache --virtual .imagickext-deps \
         imagemagick-dev \

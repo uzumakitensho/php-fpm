@@ -1,4 +1,4 @@
-FROM hafid11afridian/php-fpm:7.0.10-gd
+FROM hafid11afridian/php-fpm:7.1.19-gd
 
 RUN apk add --update --no-cache --virtual .imagickext-deps \
         imagemagick-dev \
